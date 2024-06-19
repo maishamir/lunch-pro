@@ -20,126 +20,208 @@
     },
     {
         "id": 2,
-        "name": "Spice Symphony",
-        "cuisine": "Indian",
-        "slug": "indian",
-        "address": "456 Curry Avenue, New Delhi",
-        "phone": "234-567-8901",
+        "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Butter Chicken",
-                "description": "Creamy tomato-based curry with tender chicken",
-                "image": "https://example.com/images/butter_chicken.jpg"
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
             },
             {
-                "name": "Paneer Tikka",
-                "description": "Grilled cottage cheese with spices",
-                "image": "https://example.com/images/paneer_tikka.jpg"
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
             },
             {
-                "name": "Biryani",
-                "description": "Aromatic rice dish with spices and meat",
-                "image": "https://example.com/images/biryani.jpg"
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Mediterraneo",
-        "cuisine": "Mediterranean",
-        "slug": "mediterranean",
-        "address": "789 Olive Street, Athens",
-        "phone": "345-678-9012",
+        "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Hummus & Pita",
-                "description": "Creamy hummus with warm pita bread",
-                "image": "https://example.com/images/hummus_pita.jpg"
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
             },
             {
-                "name": "Falafel",
-                "description": "Crispy chickpea fritters",
-                "image": "https://example.com/images/falafel.jpg"
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
             },
             {
-                "name": "Gyro",
-                "description": "Grilled meat with vegetables in a pita",
-                "image": "https://example.com/images/gyro.jpg"
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Trattoria Roma",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "789 Pasta Lane, Rome",
-        "phone": "345-678-9012",
+        "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Margherita Pizza",
-                "description": "Classic pizza with fresh tomatoes, mozzarella, and basil",
-                "image": "https://example.com/images/margherita_pizza.jpg"
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
             },
             {
-                "name": "Spaghetti Carbonara",
-                "description": "Traditional pasta with eggs, cheese, pancetta, and pepper",
-                "image": "https://example.com/images/spaghetti_carbonara.jpg"
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
             },
             {
-                "name": "Tiramisu",
-                "description": "Coffee-flavored dessert with mascarpone cheese",
-                "image": "https://example.com/images/tiramisu.jpg"
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
             }
         ]
     },
     {
         "id": 5,
-        "name": "La Bella Napoli",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "123 Napoli Street, Naples",
-        "phone": "456-789-0123",
+        "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Lasagna",
-                "description": "Layered pasta with meat sauce and cheese",
-                "image": "https://example.com/images/lasagna.jpg"
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
             },
             {
-                "name": "Risotto",
-                "description": "Creamy rice dish with saffron",
-                "image": "https://example.com/images/risotto.jpg"
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
             },
             {
-                "name": "Cannoli",
-                "description": "Sicilian pastry filled with sweet ricotta",
-                "image": "https://example.com/images/cannoli.jpg"
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
             }
         ]
     },
     {
         "id": 6,
-        "name": "Osteria Toscana",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "456 Tuscany Road, Florence",
-        "phone": "567-890-1234",
+       "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Ribollita",
-                "description": "Traditional Tuscan soup with bread and vegetables",
-                "image": "https://example.com/images/ribollita.jpg"
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
             },
             {
-                "name": "Fiorentina Steak",
-                "description": "Grilled T-bone steak",
-                "image": "https://example.com/images/fiorentina_steak.jpg"
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
             },
             {
-                "name": "Panna Cotta",
-                "description": "Creamy dessert with caramel sauce",
-                "image": "https://example.com/images/panna_cotta.jpg"
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+       "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
+        "top_dishes": [
+            {
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
+            },
+            {
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
+            },
+            {
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+       "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
+        "top_dishes": [
+            {
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
+            },
+            {
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
+            },
+            {
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+       "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
+        "top_dishes": [
+            {
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
+            },
+            {
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
+            },
+            {
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+       "name": "Pai Northern Thai Kitchen",
+        "cuisine": "Thai",
+        "slug": "thai",
+        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "days open": "Everyday",
+        "image": "/client/src/assets/images/pai-image.jpg",
+        "top_dishes": [
+            {
+                "name": "Khao Soi Curry Noodles",
+                "image": "/client/src/assets/images/khao-soi.jpg"
+            },
+            {
+                "name": "Pad Graprow",
+                "image": "/client/src/assets/images/pad-graprow.jpg"
+            },
+            {
+                "name": "Pad Thai",
+                "image": "/client/src/assets/images/pad-thai.jpg"
             }
         ]
     }
