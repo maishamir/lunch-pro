@@ -5,6 +5,7 @@
         "cuisine": "Mediterranean",
         "slug": "mediterranean",
         "address": "1550 Dundas St W, Toronto, ON M6K 1T5",
+        "days open": "Wednesday to Monday",
         "image": "/client/src/assets/images/good-fork-image.jpg",
         "top_dishes": [
             {
