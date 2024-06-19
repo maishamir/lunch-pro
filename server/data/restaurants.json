@@ -23,7 +23,7 @@
         "name": "Pai Northern Thai Kitchen",
         "cuisine": "Thai",
         "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "address": "18 Duncan St, Toronto, ON M5H 3G8, Canada",
         "days open": "Everyday",
         "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
@@ -43,185 +43,173 @@
     },
     {
         "id": 3,
-        "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "name": "Rudy Burger",
+        "cuisine": "Burgers",
+        "slug": "burgers",
+        "address": "619 College St, Toronto, ON M6G 1B5",
         "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+        "image": "/client/src/assets/images/rudy-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Rudy Burger",
+                "image": "/client/src/assets/images/burger.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
+                "name": "Poutine",
+                "image": "/client/src/assets/images/poutine.jpg"
             },
             {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Valentino Chicken Sandwich",
+                "image": "/client/src/assets/images/chicken-sandwich.jpg"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
-        "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+        "name": "California Sandwiches",
+        "cuisine": "Sandwiches",
+        "slug": "sandwiches",
+        "address": "244 Claremont St, Toronto, ON M6J 2N2",
+        "days open": "Monday to Saturday",
+        "image": "/client/src/assets/images/california-sandwiches-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Chicken Parmesan Sandwich",
+                "image": "/client/src/assets/images/chicken-parm-sandwich.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
-            },
-            {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Eggplant Parmesan Sandwich",
+                "image": "/client/src/assets/images/eggplant-parmesan-sandwich.jpg"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+        "name": "Pizzeria Badiali",
+        "cuisine": "Pizza",
+        "slug": "pizza",
+        "address": " 181 Dovercourt Rd, Toronto, ON M6J 3C6",
         "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+        "image": "/client/src/assets/images/badiali-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Vodka Rose Pizza",
+                "image": "/client/src/assets/images/vodka-rose.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
+                "name": "Cacio E Pepe Pizza",
+                "image": "/client/src/assets/images/cacio-e-pepe.jpg"
             },
             {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Classic Pepperoni Pizza",
+                "image": "/client/src/assets/images/pepperoni.jpg"
             }
         ]
     },
     {
         "id": 6,
-       "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+       "name": "Sisters & Co",
+        "cuisine": "Brunch",
+        "slug": "brunch",
+        "address": "887 Dundas St W, Toronto, ON M6J 1V9",
         "days open": "Everyday",
         "image": "/client/src/assets/images/pai-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Earl Grey Pancakes",
+                "image": "/client/src/assets/images/earl-pancakes.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
+                "name": "Bulgogi Eggs Benedict",
+                "image": "/client/src/assets/images/bulgogi-benny.jpg"
             },
             {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Citrus Mascarpone Waffle",
+                "image": "/client/src/assets/images/waffle.jpg"
             }
         ]
     },
     {
         "id": 7,
-       "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
-        "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+       "name": "Kiss My Pans",
+        "cuisine": "Singaporean",
+        "slug": "singaporean",
+        "address": "713 College St, Toronto, ON M6G 1C2",
+        "days open": "Friday to Monday",
+        "image": "/client/src/assets/images/kiss-my-pans.jpeg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Laksa Curry Soup",
+                "image": "/client/src/assets/images/laksa.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
+                "name": "Chicken Rice",
+                "image": "/client/src/assets/images/chicken-rice.jpg"
             },
             {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Nasi Lemak",
+                "image": "/client/src/assets/images/nasi-lemak.jpg"
             }
         ]
     },
     {
         "id": 8,
-       "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
-        "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+       "name": "NaiNai Indonesian Food",
+        "cuisine": "Indonesian",
+        "slug": "indonesian",
+        "address": "Village by The Grange (inside the Food Court, 109 McCaul St #20, Toronto, ON M5T 3K5",
+        "days open": "Monday to Saturday",
+        "image": "/client/src/assets/images/nainai-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Mie Goreng Fried Noodles with Chicken",
+                "image": "/client/src/assets/images/mie-goreng.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
-            },
-            {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Beef Satay Skewers",
+                "image": "/client/src/assets/images/beef-satay.jpg"
             }
         ]
     },
     {
         "id": 9,
-       "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+       "name": "Alpha’s Shawarma",
+        "cuisine": "Shawarma",
+        "slug": "shawarma",
+        "address": "598 Queen St W, Toronto, ON M6J 1E3",
         "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+        "image": "/client/src/assets/images/alphas-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Chicken Shawarma Plate",
+                "image": "/client/src/assets/images/chicken-plate.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
+                "name": "Beef Shawarma",
+                "image": "/client/src/assets/images/beef-shawarma.jpg"
             },
             {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Chicken Shawarma",
+                "image": "/client/src/assets/images/chicken-shawarma.jpg"
             }
         ]
     },
     {
         "id": 10,
-       "name": "Pai Northern Thai Kitchen",
-        "cuisine": "Thai",
-        "slug": "thai",
-        "address": " 18 Duncan St, Toronto, ON M5H 3G8, Canada",
+       "name": "Sanuki Udon",
+        "cuisine": "Japanese",
+        "slug": "japanese",
+        "address": "20 Carlton St. Unit3, Toronto, ON M5B 2H5, Canada",
         "days open": "Everyday",
-        "image": "/client/src/assets/images/pai-image.jpg",
+        "image": "/client/src/assets/images/sanuki-udon-image.jpg",
         "top_dishes": [
             {
-                "name": "Khao Soi Curry Noodles",
-                "image": "/client/src/assets/images/khao-soi.jpg"
+                "name": "Wagyu Udon",
+                "image": "/client/src/assets/images/wagyu-udon.jpg"
             },
             {
-                "name": "Pad Graprow",
-                "image": "/client/src/assets/images/pad-graprow.jpg"
-            },
-            {
-                "name": "Pad Thai",
-                "image": "/client/src/assets/images/pad-thai.jpg"
+                "name": "Katsu Udon",
+                "image": "/client/src/assets/images/katsu-udon.jpg"
             }
         ]
     }
