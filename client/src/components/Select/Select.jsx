@@ -16,6 +16,7 @@ function Select({ onCuisineChange }) {
             slug: data.find(rest => rest.cuisine === cuisine).slug
           };
         });
+          console.log(cuisines)
         setCuisines(uniqueCuisines);
       } catch (error) {
         console.error("Couldn't fetch data", error);
