@@ -8,172 +8,17 @@ const port = 8080;
 app.use(express.json());
 app.use(cors());
 
-
-let restaurants = [
-    {
-        "id": 1,
-        "name": "Sakura Sushi",
-        "cuisine": "Japanese",
-        "slug": "japanese",
-        "address": "123 Cherry Blossom Lane, Tokyo",
-        "phone": "123-456-7890",
-        "top_dishes": [
-            {
-                "name": "Sushi Platter",
-                "description": "An assortment of fresh sushi",
-                "image": "https://example.com/images/sushi_platter.jpg"
-            },
-            {
-                "name": "Ramen",
-                "description": "Delicious noodle soup with pork",
-                "image": "https://example.com/images/ramen.jpg"
-            },
-            {
-                "name": "Tempura",
-                "description": "Crispy battered shrimp and vegetables",
-                "image": "https://example.com/images/tempura.jpg"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Spice Symphony",
-        "cuisine": "Indian",
-        "slug": "indian",
-        "address": "456 Curry Avenue, New Delhi",
-        "phone": "234-567-8901",
-        "top_dishes": [
-            {
-                "name": "Butter Chicken",
-                "description": "Creamy tomato-based curry with tender chicken",
-                "image": "https://example.com/images/butter_chicken.jpg"
-            },
-            {
-                "name": "Paneer Tikka",
-                "description": "Grilled cottage cheese with spices",
-                "image": "https://example.com/images/paneer_tikka.jpg"
-            },
-            {
-                "name": "Biryani",
-                "description": "Aromatic rice dish with spices and meat",
-                "image": "https://example.com/images/biryani.jpg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Mediterraneo",
-        "cuisine": "Mediterranean",
-        "slug": "mediterranean",
-        "address": "789 Olive Street, Athens",
-        "phone": "345-678-9012",
-        "top_dishes": [
-            {
-                "name": "Hummus & Pita",
-                "description": "Creamy hummus with warm pita bread",
-                "image": "https://example.com/images/hummus_pita.jpg"
-            },
-            {
-                "name": "Falafel",
-                "description": "Crispy chickpea fritters",
-                "image": "https://example.com/images/falafel.jpg"
-            },
-            {
-                "name": "Gyro",
-                "description": "Grilled meat with vegetables in a pita",
-                "image": "https://example.com/images/gyro.jpg"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Trattoria Roma",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "789 Pasta Lane, Rome",
-        "phone": "345-678-9012",
-        "top_dishes": [
-            {
-                "name": "Margherita Pizza",
-                "description": "Classic pizza with fresh tomatoes, mozzarella, and basil",
-                "image": "https://example.com/images/margherita_pizza.jpg"
-            },
-            {
-                "name": "Spaghetti Carbonara",
-                "description": "Traditional pasta with eggs, cheese, pancetta, and pepper",
-                "image": "https://example.com/images/spaghetti_carbonara.jpg"
-            },
-            {
-                "name": "Tiramisu",
-                "description": "Coffee-flavored dessert with mascarpone cheese",
-                "image": "https://example.com/images/tiramisu.jpg"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "La Bella Napoli",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "123 Napoli Street, Naples",
-        "phone": "456-789-0123",
-        "top_dishes": [
-            {
-                "name": "Lasagna",
-                "description": "Layered pasta with meat sauce and cheese",
-                "image": "https://example.com/images/lasagna.jpg"
-            },
-            {
-                "name": "Risotto",
-                "description": "Creamy rice dish with saffron",
-                "image": "https://example.com/images/risotto.jpg"
-            },
-            {
-                "name": "Cannoli",
-                "description": "Sicilian pastry filled with sweet ricotta",
-                "image": "https://example.com/images/cannoli.jpg"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Osteria Toscana",
-        "cuisine": "Italian",
-        "slug": "italian",
-        "address": "456 Tuscany Road, Florence",
-        "phone": "567-890-1234",
-        "top_dishes": [
-            {
-                "name": "Ribollita",
-                "description": "Traditional Tuscan soup with bread and vegetables",
-                "image": "https://example.com/images/ribollita.jpg"
-            },
-            {
-                "name": "Fiorentina Steak",
-                "description": "Grilled T-bone steak",
-                "image": "https://example.com/images/fiorentina_steak.jpg"
-            },
-            {
-                "name": "Panna Cotta",
-                "description": "Creamy dessert with caramel sauce",
-                "image": "https://example.com/images/panna_cotta.jpg"
-            }
-        ]
-    }
-]
-
 // function for reading data from data file
-// function readRestFile() {
-//     const restFile = fs.readFileSync('./data/restaurants.json');
-//     const restData = JSON.parse(treeFile)
-//     return restData;
-// }
-
-
+function readRestFile() {
+    const restFile = fs.readFileSync('./data/restaurants.json');
+    const restData = JSON.parse(restFile)
+    return restData;
+}
 
 // endpoint to get all restaurants
 app.get('/api/restaurants', (req, res) => {
-    const strippedData = restaurants.map((rest) => {
+    const rest = readRestFile();
+    const strippedData = rest.map((rest) => {
         return {
             id: rest.id,
             name: rest.name,
@@ -187,14 +32,16 @@ app.get('/api/restaurants', (req, res) => {
 // endpoint to get a specific restaurant
 app.get('/api/restaurants/:id', (req, res) => {
     const restId = parseInt(req.params.id)
-    const foundRestaurant = restaurants.find(rest => rest.id === restId )
+    const rest = readRestFile();
+    const foundRestaurant = rest.find(rest => rest.id === restId )
     res.json(foundRestaurant)
 })
 
 // endpoint to get all restaurants of a specific cuisine
 app.get('/api/cuisine/:slug', (req, res) => {
     const slug = req.params.slug
-    const allRest = restaurants.filter(rest => rest.slug === slug);
+    const rest = readRestFile();
+    const allRest = rest.filter(rest => rest.slug === slug);
     res.json(allRest)
 })
 
