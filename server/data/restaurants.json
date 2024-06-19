@@ -1,26 +1,19 @@
 [
     {
         "id": 1,
-        "name": "Sakura Sushi",
-        "cuisine": "Japanese",
-        "slug": "japanese",
-        "address": "123 Cherry Blossom Lane, Tokyo",
-        "phone": "123-456-7890",
+        "name": "The Good Fork",
+        "cuisine": "Mediterranean",
+        "slug": "mediterranean",
+        "address": "1550 Dundas St W, Toronto, ON M6K 1T5",
+        "image": "/client/src/assets/images/good-fork-image.jpg",
         "top_dishes": [
             {
-                "name": "Sushi Platter",
-                "description": "An assortment of fresh sushi",
-                "image": "https://example.com/images/sushi_platter.jpg"
+                "name": "Hummus Bowl",
+                "image": "/client/src/assets/images/good-fork-hummus-bowl.jpg"
             },
             {
-                "name": "Ramen",
-                "description": "Delicious noodle soup with pork",
-                "image": "https://example.com/images/ramen.jpg"
-            },
-            {
-                "name": "Tempura",
-                "description": "Crispy battered shrimp and vegetables",
-                "image": "https://example.com/images/tempura.jpg"
+                "name": "Halva Pancakes with Blueberry Compote",
+                "image": "/client/src/assets/images/good-fork-hummus-bowl.jpg"
             }
         ]
     },
