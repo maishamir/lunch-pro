@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 function Restaurants({ selectedCuisine }) {
   const [restaurants, setRestaurants] = useState([]);
@@ -10,6 +11,7 @@ function Restaurants({ selectedCuisine }) {
     const fetchRests = async () => {
       try {
         const response = await axios.get(`http://localhost:8080/api/cuisine/${slug}`);
+        console.log
         setRestaurants(response.data);
       } catch (err) {
         console.error("Couldn't fetch data", err);
@@ -20,7 +22,7 @@ function Restaurants({ selectedCuisine }) {
 
   return (
     <div>
-      <h1>Restaurants for {selectedCuisine || slug}</h1>
+      <h1>Restaurants for {selectedCuisine} Cuisine</h1>
       <ul>
         {restaurants.map((restaurant) => (
           <li key={restaurant.id}>
@@ -28,6 +30,7 @@ function Restaurants({ selectedCuisine }) {
             <p>Cuisine: {restaurant.cuisine}</p>
             <p>Address: {restaurant.address}</p>
             {/* Add more details as needed */}
+             <Link to={`/restaurant/${restaurant.id}`}>View Details</Link>
           </li>
         ))}
       </ul>
